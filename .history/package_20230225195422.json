@@ -31,6 +31,7 @@
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
       "npm run lint"
+      // "git add" 之前的版本需要手动把 lint 过程中修改的代码手动 add，新版本不需要了
     ]
   }
 }
